@@ -1,0 +1,185 @@
+.navigation {
+  text-align: right;
+  padding: 1px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  background-color: #e1bbad;
+  margin: 0px;
+  margin-top: 0px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  element: inline;
+
+}
+
+.tabs {
+  background: #E5C09Dc;
+  padding: 2px;
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 0px;
+  color: white;
+  margin: 70px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  display: inline;
+  text-align: left;
+
+
+}
+
+.tabs:hover {
+  background: #eec7b9;
+  color: #bd9a8d;
+  text-decoration: none;
+}
+
+.title {
+  margin-top: 30px;
+  height: 100px;
+  object-fit: cover;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fffffff;
+    background-color: white;
+    font-size: 25px;
+}
+
+.tab-panels ul {
+    margin: 0;
+    padding: 0;
+    
+}
+.tab-panels ul li {
+    list-style-type: none;
+    display: inline-block;
+    background: #ddb0a0ff;
+    margin: 0;
+    padding: 3px 10px;
+    border-radius: 10px 10px 0 0;
+    color: #ffffff;
+    font-weight: 200;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+.tab-panels ul li:hover {
+    color: #fff;
+    background: rgb(247, 196, 177);
+}
+
+.tab-panels ul li.active {
+    color: #fff;
+    background: #c58c7dff;
+}
+
+.tab-panels .panel {
+    display:none;
+    background: #ddb0a0ff;
+    padding: 30px;
+    border-radius: 25px;
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.tab-panels .panel.active {
+    display:block;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff
+}
+
+img {
+  width: 450px;
+}
+
+.quote {
+  width: 550px;
+}
+
+.mark {
+  color: #ddb0a0ff;
+}
+
+.fa {
+  padding: 20px;
+  padding-right: 45px;
+  margin: 30px;
+  padding-right: 10px;
+  padding-left: 8px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  /* float: right; */
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  /* padding-left: 20px; */
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  height: 150px;
+  background: rgb(255, 241, 232);
+  margin: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-left: 25px;
+  align-items: center;
+}
+
+.footers {
+  display: flex;
+  height: 30px;
+  background: rgb(255, 241, 232);
+  margin: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  padding-left: 25px;
+  align-items: center;
+}
+
+.foot {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #bd9a8d;
+  font-size: 16px;
+}

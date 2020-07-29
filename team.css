@@ -1,0 +1,277 @@
+p{
+  padding: 10px;
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+ table{
+   display: flex;
+   justify-content: space-between;
+} 
+
+.navigation {
+  text-align: right;
+  padding: 1px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  background-color: #e1bbad;
+  margin: 0px;
+  margin-top: 0px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  element: inline;
+
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+/*   margin: 0em; */
+  /* background-color: #fcf3ed; */
+  object-fit: cover;
+  margin-top:0em;
+}
+
+.tabs {
+  background: #E5C09Dc;
+  padding: 2px;
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 1000px;
+  color: white;
+  margin: 70px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  display: inline;
+  text-align: left;
+
+
+}
+
+.tabs:hover {
+  background: #eec7b9;
+  color: #bd9a8d;
+  text-decoration: none;
+}
+
+.execteam {
+  height: 120px;
+  margin-left: 230px;
+}
+
+/*
+.eteam {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.exec {
+  height: 95px;
+  object-fit: cover;
+  padding-left: 250px;
+}
+*/
+
+/*
+.headshots {
+  display: flex;
+  /* display: row; */
+ /* justify-content: center;
+}*/
+
+.background {
+  /* display: inline-grid; */
+  display: block;
+}
+
+.AB {
+  background: #c58c7dff;
+  opacity: 80%;
+  margin-left: 20px;
+  margin-right: 170px;
+  width: 70%;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  
+} 
+
+.LH { 
+  background: #c58c7dff;
+  opacity: 80%;
+  padding: 15px;
+  margin-left: 8px;
+  width: 89%;
+  border-radius: 5px;
+  
+}
+
+.MB {
+  background: #c58c7dff;
+  opacity: 80%;
+
+  margin-left: 20px;
+  margin-right: 170px;
+  width: 70%;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.RY {
+  background: #c58c7dff;
+  opacity: 80%;
+  padding: 15px;
+  margin-left: 8px;
+  width: 89%;
+  border-radius: 5px;
+}
+
+.b2 {
+  display: flex;
+  display: row;
+}
+
+.headshots2 {
+  display: flex;
+  display: row;
+  justify-content: center;
+}
+
+.akhila {
+  /* height: 400px; */
+  width: 400px;
+  height: 350px;
+  margin-top: 20px;
+  margin-right: 185px;
+  border: 10px solid white;
+  object-fit: cover;
+  padding-left: 100px;
+  padding-right: 0px;
+  border-radius: 50px;
+  /* border-top-left-radius: 50px;
+  border */
+
+}
+
+.layla {
+  width: 400px;
+  height: 350px;
+  margin-top: 20px;
+  margin-left: 185px;
+  /* margin-right: 10px; */
+  border: 10px solid white;
+  border-radius: 50px;
+  object-fit: cover;
+  padding-left: 0px;
+}
+
+.meghana {
+  width: 400px;
+  height: 350px;
+  margin-top: 55px;
+  margin-right: 185px;
+  border: 10px solid white;
+  border-radius: 50px;
+  object-fit: cover;
+  padding-left: 100px;
+  padding-right: 0px;
+
+  
+}
+
+.rachel {
+  width: 400px;
+  height: 350px;
+  margin-top: 50px;
+  margin-left: 200px;
+  border: 10px solid white;
+  border-radius: 50px;
+  object-fit: cover;
+
+
+}
+
+.fa {
+  padding: 20px;
+  padding-right: 45px;
+  margin: 30px;
+  padding-right: 10px;
+  padding-left: 8px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  /* float: right; */
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  /* padding-left: 20px; */
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  height: 150px;
+  background: rgb(255, 241, 232);
+  margin: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-left: 25px;
+  align-items: center;
+}
+
+.footers {
+  display: flex;
+  height: 30px;
+  background: rgb(255, 241, 232);
+  margin: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  padding-left: 25px;
+  align-items: center;
+}
+
+.foot {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #bd9a8d;
+}
+
+.team-team{
+  display: flex;
+  justify-content: space-between;
+}
+

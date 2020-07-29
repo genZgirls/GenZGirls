@@ -1,0 +1,300 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+/*   margin: 0em; */
+  /* background-color: #fcf3ed; */
+  object-fit: cover;
+  margin-top:0em;
+  background-color: white; 
+}
+
+/* h1 {
+  font-style: italic;
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 30px;
+  position: absolute;
+} */
+
+a {
+  margin: 30px;
+}
+
+.vid {
+  float: right;
+  font-size: 8px;
+  padding: 0px;
+  margin: 0px;
+  color: #F3CBA7;
+}
+
+
+.platform {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 10px;
+}
+
+
+
+
+h4{
+  text-align: left;
+/*   font-weight: 5; */
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 750px;
+  font-family: 'Lora', serif;
+}
+
+
+
+
+
+img{/*    background: url(bg-1.jpg);   width: 50%;
+   position: absolute;
+   left: 0px;
+   height: 100%;
+   width: 50%;
+   position: absolute;
+   right: 0px;
+   height: 100%; */
+  object-fit: cover;
+  height: 70px;
+  float: left;
+  top: 10px;
+  border-radius: 50%; 
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.background {
+  /* background: #E5C09D; */
+  padding: 5px;
+  width: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  
+}
+
+.logopic{
+    float: left;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.navigation {
+  text-align: right;
+/*   padding: 1px; */
+
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+/*   padding-left: 5px; */
+  font-size: 30px;
+  background-color: #e1bbad;
+  margin-top: 0px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  element: inline;
+
+
+}
+
+.tabs {
+  background: #E5C09Dc;
+
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 1000px;
+  color: white;
+  margin: 45px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', serif;
+  font-size: 25px;
+  display: inline;
+  text-align: center;
+
+
+}
+
+.tabs:hover {
+  background: #eec7b9;
+  color: #bd9a8d;
+  text-decoration: none;
+}
+
+.hea {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  height: 200px;
+  border-radius: 0px;
+}
+
+.hep {
+  display: flex;
+  justify-content: center;
+}
+
+.girls {
+  height: 70px;
+  border-radius: 0px;
+}
+
+.map{
+
+   /* background: url(bg-1.jpg); */
+   object-fit: cover;
+   width: 100%;
+   height: auto;
+   /* position: absolute; */
+   /* left: 0px;
+   position: absolute; */
+   /* right: 0px;
+   top: 1000px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   float: left;
+  margin-bottom: 300px;
+  margin-top: 50px;
+  border-radius: 0px;
+  opacity: 100%;
+}
+
+
+.newBackground{
+  background-color: black;
+  opacity: 0.8;
+}
+
+
+.missionStatement {
+  border: 2px solid #e1bbad;
+  background-color: #e1bbad;
+  font-size: 25px;
+  padding: 40px;
+  margin: 40px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+
+.mission {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+
+.statement {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+span.genZ {
+  color: #784d25;
+  font-style: bold;
+}
+
+.search-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 50px;
+
+
+}
+
+.btn-go
+{
+  border: none;
+  color: white;
+  height:200px;
+  width:200px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  /* float: right; */
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding-left: 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.header {
+  top: 100px;
+}
+
+.footer {
+  display: flex;
+  height: 150px;
+  background: rgb(255, 241, 232);
+  margin: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-left: 25px;
+  align-items: center;
+}
+
+.footers {
+  display: flex;
+  height: 30px;
+  background: #fff1e8;
+  margin: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  padding-left: 25px;
+  align-items: center;
+}
+
+.foot {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #bd9a8d;
+}
